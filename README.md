@@ -30,7 +30,8 @@ Perfect for **learning cryptography**, **secure text handling**, and **cybersecu
 
 1. Install **Python 3.8+**  pip install -r requirements.txt
 
-3. Run the app:
+3. Run the app: streamlit run app.py
+
 
 
 streamlit run app.py
