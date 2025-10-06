@@ -1,63 +1,47 @@
-🧠 Multi-Algorithm Text Encryption Tool
+# Multi-Algorithm Text Encryption Tool
 
-A Streamlit web app to encrypt and decrypt text using three powerful algorithms — AES, DES, and RSA.
+A Streamlit web app to encrypt and decrypt text using three algorithms — AES, DES, and RSA.  
 Designed for secure data protection and learning cryptography concepts.
 
-🚀 Features
+## Features
 
-🔒 AES (Advanced Encryption Standard) – Fast and secure symmetric encryption
+- AES (Advanced Encryption Standard) – Fast and secure symmetric encryption  
+- DES (Data Encryption Standard) – Legacy symmetric encryption for demo purposes  
+- RSA (Rivest–Shamir–Adleman) – Asymmetric encryption with public/private keys  
+- Streamlit Interface – Interactive and user-friendly  
+- Copy or download encrypted/decrypted text easily  
+- Great for learning encryption and cybersecurity basics  
 
-🧩 DES (Data Encryption Standard) – Legacy symmetric encryption for demo purposes
+## How It Works
 
-🔑 RSA (Rivest–Shamir–Adleman) – Asymmetric encryption with public/private keys
+1. Choose an encryption algorithm (AES, DES, or RSA).  
+2. Enter your text input and key (if required).  
+3. Click Encrypt to convert plain text into ciphertext.  
+4. Click Decrypt to restore the original message.  
+5. For RSA, the app automatically generates a key pair.  
 
-🌐 Streamlit Interface – Interactive and user-friendly
+## How to Run
 
-📋 Copy or download encrypted/decrypted text easily
+1. Install Python 3.8 or higher  
+2. Install required packages:
+ip install -r requirements.txt
 
-🧠 Great for learning encryption and cybersecurity basics
+3. Run the app:
 
-🧩 How It Works
-
-Choose an encryption algorithm (AES, DES, or RSA).
-
-Enter your text input and key (if required).
-
-Click Encrypt to convert plain text into ciphertext.
-
-Click Decrypt to restore the original message.
-
-For RSA, the app automatically generates a key pair.
-
-🖥️ How to Run
-
-Install Python 3.8 or higher
-
-Install required packages:
-
-pip install -r requirements.txt
-
-
-Run the app:
 
 streamlit run app.py
 
+4. Open your browser at http://localhost:8501
 
-Open your browser at http://localhost:8501
+## Security Notes
 
-🔐 Security Notes
+- AES key must be 16 characters (128-bit)  
+- DES key must be 8 characters (64-bit)  
+- RSA generates public/private keys automatically  
+- Keep private keys secure  
+- For educational and demo purposes only  
 
-AES key must be 16 characters (128-bit)
+## Developed By
 
-DES key must be 8 characters (64-bit)
-
-RSA generates public/private keys automatically
-
-Keep private keys secure
-
-For educational and demo purposes only
-
-👨‍💻 Developed By
-
-Surya Pratap Singh
+Surya Pratap Singh  
 Cybersecurity Enthusiast & Developer
